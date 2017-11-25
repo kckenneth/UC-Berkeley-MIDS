@@ -32,7 +32,7 @@ def scramble(W):
             split(S2, start, mid)   # split the second sequence again
             
             if len(S1) == 2:        # the ultimate sequence length after multiple rounds of splitting
-                l1 = [val for pair in zip(S1, S2) for val in pair]  # mergine S1 and S2 by element wise
+                l1 = [val for pair in zip(S1, S2) for val in pair]  # merge S1 and S2 by element wise
                 result.append(l1)   # each sequence will have 4 elements in result list
         return result
     
