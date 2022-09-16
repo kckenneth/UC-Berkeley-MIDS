@@ -1,2 +1,0 @@
-This is a small test file. This file is for a test.
-This small test file has two small lines.
